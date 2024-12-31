@@ -1,6 +1,4 @@
-package com.example.models;
-
-import java.util.Map;
+package com.common;
 
 public class Person {
 

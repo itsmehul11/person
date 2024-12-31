@@ -1,6 +1,7 @@
 package com.example.start;
 
 import org.platformlambda.core.annotations.MainApplication;
+import org.platformlambda.core.models.EntryPoint;
 import org.platformlambda.core.system.AutoStart;
 import org.platformlambda.core.util.CryptoApi;
 import org.platformlambda.core.util.Utility;
@@ -11,7 +12,7 @@ import java.io.File;
 
 
 @MainApplication
-public class PersonServiceApplication {
+public class PersonServiceApplication implements EntryPoint {
 	private static final Logger log = LoggerFactory.getLogger(PersonServiceApplication.class);
 	private static final Utility util = Utility.getInstance();
 	private static final CryptoApi crypto = new CryptoApi();

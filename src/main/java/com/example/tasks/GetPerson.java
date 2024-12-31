@@ -1,8 +1,7 @@
 package com.example.tasks;
 
-import com.example.models.Person;
+import com.common.Person;
 import org.platformlambda.core.annotations.PreLoad;
-import org.platformlambda.core.models.LambdaFunction;
 import org.platformlambda.core.models.TypedLambdaFunction;
 
 import java.util.Map;
