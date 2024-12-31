@@ -1,0 +1,4 @@
+flows:
+  - 'get-profile.yaml'
+
+location: 'classpath:/flows/'
