@@ -10,7 +10,7 @@ rest:
   #
   - service: ["event.api.service"]
     methods: ['POST']
-    url: "/api/event"
+    url: "/api/eventkk"
     timeout: 60s
     tracing: true
 
